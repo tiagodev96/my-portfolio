@@ -4,12 +4,13 @@ import ME from '../../assets/me-about.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import { i18n } from '../../translate/i18n'
 
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>{i18n.t('about.sectionPreTitle')}</h5>
+      <h2>{i18n.t('about.sectionTitle')}</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,26 +22,26 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>{i18n.t('about.experienceTitle')}</h5>
+              <small>{i18n.t('about.experienceMessage')}</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>{i18n.t('about.clientsTitle')}</h5>
+              <small>{i18n.t('about.clientsMessage')}</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>{i18n.t('about.projectsTitle')}</h5>
+              <small>{i18n.t('about.projectsMessage')}</small>
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia facilis nemo architecto ipsam laborum maiores provident quis, quod dignissimos, quas quasi itaque natus odio voluptates iste ratione fugiat sequi facere.</p>
+          <p>{i18n.t('about.aboutMessage')}</p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">{i18n.t('buttons.letsTalk')}</a>
         </div>
       </div>
     </section>

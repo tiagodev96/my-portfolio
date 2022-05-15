@@ -1,5 +1,6 @@
 import React from 'react'
 import './testimonials.css'
+import { i18n } from '../../translate/i18n'
 
 /* SWIPER */
 import { Pagination } from 'swiper'
@@ -33,8 +34,8 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review From Clients</h5>
-      <h2>Testimonials</h2>
+      <h5>{i18n.t('testimonials.sectionPreTitle')}</h5>
+      <h2>{i18n.t('testimonials.sectionTitle')}</h2>
 
       <Swiper className="container testimonials__container" modules={[Pagination]} spaceBeween={40} slidesPerView={1} pagination={{ clickable: true }}>
         {
