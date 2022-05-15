@@ -37,6 +37,10 @@ header {
   background: var(--color-primary);
 }
 
+.header__socials a {
+  font-size: 1.5rem;
+}
+
 /* ME */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
@@ -70,6 +74,7 @@ header {
   cursor: pointer;
   color: var(--color-primary);
   transition: var(--transition);
+  font-size: 1.2rem;
 }
 
 .languages p:hover {
