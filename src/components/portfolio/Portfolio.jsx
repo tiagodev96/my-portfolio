@@ -4,36 +4,44 @@ import PORTFOLIO from '../../assets/portfolio.png'
 import DRAWCRIATIVA from '../../assets/drawcriativa.png'
 import METODOHAYAT from '../../assets/metodo-hayat.png'
 import VOCEVIRTUALBLOG from '../../assets/voce-virtual-blog.png'
+import VILLACLOSET from '../../assets/villa-closet.png'
 import { i18n } from '../../translate/i18n'
 
 const data = [
   {
     id: 1,
-    image: PORTFOLIO,
-    title: `Portfolio Website`,
-    github: 'https://github.com/tiagodev96/my-portfolio',
-    demo: 'https://tfrontdev.vercel.app'
+    image: VOCEVIRTUALBLOG,
+    title: `Blog Você Virtual`,
+    github: 'https://github.com/tiagodev96/voce-virtual-blog',
+    demo: 'https://vocevirtualblog.com/'
   },
   {
     id: 2,
+    image: VILLACLOSET,
+    title: `Villa Closet`,
+    github: 'https://github.com/tiagodev96/villa-closet-theme',
+    demo: 'https://villacloset.com.br'
+  },
+  {
+    id: 3,
     image: DRAWCRIATIVA,
     title: `Draw Criativa`,
     github: 'https://github.com/tiagodev96/draw-criativa-portfolio',
     demo: 'https://www.drawcriativa.com.br/'
   },
   {
-    id: 3,
+    id: 4,
     image: METODOHAYAT,
     title: `Método Hayat`,
     github: 'https://github.com/tiagodev96/metodo-hayat-website',
     demo: 'https://metodohayat.com/'
   },
   {
-    id: 4,
-    image: VOCEVIRTUALBLOG,
-    title: `Blog Você Virtual`,
-    github: 'https://github.com/tiagodev96/voce-virtual-blog',
-    demo: 'https://vocevirtualblog.com/'
+    id: 5,
+    image: PORTFOLIO,
+    title: `Portfolio Website`,
+    github: 'https://github.com/tiagodev96/my-portfolio',
+    demo: 'https://tfrontdev.vercel.app'
   }
 ];
 
