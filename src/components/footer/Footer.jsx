@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css';
 import { IoLogoInstagram } from 'react-icons/io'
-import { BsWhatsapp, BsLinkedin } from 'react-icons/bs'
+import { BsWhatsapp, BsLinkedin, BsGithub } from 'react-icons/bs'
 import { i18n } from '../../translate/i18n'
 
 const Footer = () => {
@@ -23,6 +23,7 @@ const Footer = () => {
         <a href="https://instagram.com/tiagocbatista" target="_blank" rel="noreferrer"><IoLogoInstagram /></a>
         <a href="https://api.whatsapp.com/send?phone=5571993553196" target='_blank' rel="noreferrer"><BsWhatsapp /></a>
         <a href="https://www.linkedin.com/in/tiagocb96/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+        <a href="https://github.com/tiagodev96" target="_blank" rel="noreferrer"><BsGithub /></a>
       </div>
 
       <div className="footer__copyright">
