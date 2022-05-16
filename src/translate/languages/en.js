@@ -63,6 +63,11 @@ const messages = {
                 }
             },
 
+            portfolio: {
+                sectionPreTitle: 'My Recent Work',
+                sectionTitle: 'Portfolio'
+            },
+
             testimonials: {
                 sectionPreTitle: 'Review From Clients',
                 sectionTitle: 'Testimonials',

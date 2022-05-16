@@ -4,6 +4,7 @@ import PORTFOLIO from '../../assets/portfolio.png'
 import DRAWCRIATIVA from '../../assets/drawcriativa.png'
 import METODOHAYAT from '../../assets/metodo-hayat.png'
 import VOCEVIRTUALBLOG from '../../assets/voce-virtual-blog.png'
+import { i18n } from '../../translate/i18n'
 
 const data = [
   {
@@ -39,8 +40,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>{i18n.t('portfolio.sectionPreTitle')}</h5>
+      <h2>{i18n.t('portfolio.sectionTitle')}</h2>
 
       <div className="container portfolio__container">
         {
