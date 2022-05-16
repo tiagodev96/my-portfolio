@@ -1,48 +1,38 @@
 import React from 'react'
 import './portfolio.css'
+import PORTFOLIO from '../../assets/portfolio.png'
+import DRAWCRIATIVA from '../../assets/drawcriativa.png'
+import METODOHAYAT from '../../assets/metodo-hayat.png'
+import VOCEVIRTUALBLOG from '../../assets/voce-virtual-blog.png'
 
 const data = [
   {
     id: 1,
-    image: 'https://source.unsplash.com/random/500x500',
-    title: `Project 1`,
-    github: 'https://github.com/',
-    demo: 'https://google.com/'
+    image: PORTFOLIO,
+    title: `Portfolio Website`,
+    github: 'https://github.com/tiagodev96/my-portfolio',
+    demo: 'https://tfrontdev.vercel.app'
   },
   {
     id: 2,
-    image: 'https://source.unsplash.com/random/500x500',
-    title: `Project 2`,
-    github: 'https://github.com/',
-    demo: 'https://google.com/'
+    image: DRAWCRIATIVA,
+    title: `Draw Criativa`,
+    github: 'https://github.com/tiagodev96/draw-criativa-portfolio',
+    demo: 'https://www.drawcriativa.com.br/'
   },
   {
     id: 3,
-    image: 'https://source.unsplash.com/random/500x500',
-    title: `Project 3`,
-    github: 'https://github.com/',
-    demo: 'https://google.com/'
+    image: METODOHAYAT,
+    title: `Método Hayat`,
+    github: 'https://github.com/tiagodev96/metodo-hayat-website',
+    demo: 'https://metodohayat.com/'
   },
   {
     id: 4,
-    image: 'https://source.unsplash.com/random/500x500',
-    title: `Project 4`,
-    github: 'https://github.com/',
-    demo: 'https://google.com/'
-  },
-  {
-    id: 5,
-    image: 'https://source.unsplash.com/random/500x500',
-    title: `Project 5`,
-    github: 'https://github.com/',
-    demo: 'https://google.com/'
-  },
-  {
-    id: 6,
-    image: 'https://source.unsplash.com/random/500x500',
-    title: `Project 6`,
-    github: 'https://github.com/',
-    demo: 'https://google.com/'
+    image: VOCEVIRTUALBLOG,
+    title: `Blog Você Virtual`,
+    github: 'https://github.com/tiagodev96/voce-virtual-blog',
+    demo: 'https://vocevirtualblog.com/'
   }
 ];
 

@@ -8,27 +8,20 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 
+
 const data = [
   {
-    avatar: 'https://i.pravatar.cc/500',
-    name: 'Derick Rose',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus minus esse maiores ex, dignissimos libero. Ipsa eveniet nesciunt, modi saepe laboriosam illum inventore veritatis itaque, placeat, odit perferendis facilis!'
+    name: 'Laine P.',
+    review: i18n.t('testimonials.laineTestimony'),
   },
   {
-    avatar: 'https://i.pravatar.cc/500',
-    name: 'Lebron James',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus minus esse maiores ex, dignissimos libero. Ipsa eveniet nesciunt, modi saepe laboriosam illum inventore veritatis itaque, placeat, odit perferendis facilis!'
+    name: 'Fernanda S.',
+    review: i18n.t('testimonials.fernandaTestimony')
   },
   {
-    avatar: 'https://i.pravatar.cc/500',
-    name: 'Kobe Bryant',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus minus esse maiores ex, dignissimos libero. Ipsa eveniet nesciunt, modi saepe laboriosam illum inventore veritatis itaque, placeat, odit perferendis facilis!'
-  },
-  {
-    avatar: 'https://i.pravatar.cc/500',
-    name: 'Paul Gasol',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus minus esse maiores ex, dignissimos libero. Ipsa eveniet nesciunt, modi saepe laboriosam illum inventore veritatis itaque, placeat, odit perferendis facilis!'
-  },
+    name: 'Vinícius K.',
+    review: i18n.t('testimonials.viniciusTestimony')
+  }
 ]
 
 const Testimonials = () => {
@@ -39,12 +32,9 @@ const Testimonials = () => {
 
       <Swiper className="container testimonials__container" modules={[Pagination]} spaceBeween={40} slidesPerView={1} pagination={{ clickable: true }}>
         {
-          data.map(({ avatar, name, review }, index) => {
+          data.map(({ name, review }, index) => {
             return (
               <SwiperSlide className="testimonial" key={index}>
-                <div className="client__avatar">
-                  <img src={avatar} alt={name} />
-                </div>
                 <h5 className="client__name">{name}</h5>
                 <small className="client__review">{review}</small>
               </SwiperSlide>

@@ -67,6 +67,9 @@ const messages = {
             testimonials: {
                 sectionPreTitle: 'Avaliação dos clientes',
                 sectionTitle: 'Depoimentos',
+                laineTestimony: 'Através do site que foi por construído por Tiago, consegui deixar o meu negócio mais profissional, consegui ter mais visibilidade no mercado, atrair mais pessoas, além de ter os meus serviços divulgados de forma organizada, com uma nova experiência para os meus clientes. O site ficou lindo. Recomendo e adorei o trabalho foi entregue.',
+                fernandaTestimony: 'Tiago é um ótimo profissional! Trabalha com muita dedicação, tem um atendimento excelente e faz um trabalho primoroso... super recomendo!!!',
+                viniciusTestimony: 'Ótimo profissional, responsável e ágil! Recomendo.'
             },
 
             contact: {

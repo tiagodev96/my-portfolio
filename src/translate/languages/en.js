@@ -65,7 +65,10 @@ const messages = {
 
             testimonials: {
                 sectionPreTitle: 'Review From Clients',
-                sectionTitle: 'Testimonials'
+                sectionTitle: 'Testimonials',
+                laineTestimony: 'Through the website that was built by Tiago, i made my business more professional, i had more visibility on market, attracted more clients, in addition to having my services publicized in an organized way, with a new experience for my customers. The website turned out beautiful. I recommend and loved the work that was made.',
+                fernandaTestimony: 'Tiago is a great professional! He works with a lot of dedication, he has an excellent service and does an exquisite job... I highly recommend it!!!',
+                viniciusTestimony: 'Great professional, responsible and agile! I recommend.'
             },
 
             contact: {
