@@ -47,7 +47,8 @@ const messages = {
                     title: 'UI/UX Design',
                     serviceOne: 'Criação de layout exclusivo',
                     serviceTwo: 'Alinhamento de layout com o cliente',
-                    serviceThree: 'Criação de identidade visual'
+                    serviceThree: 'Criação de identidade visual',
+                    serviceFour: 'Construção de uma boa experiência do usuário'
                 },
                 webDevelopment: {
                     title: 'Desenvolvimento Web',

@@ -27,6 +27,10 @@ const Services = () => {
               <BiCheck className="service__list-icon" />
               <p>{i18n.t('services.uiux.serviceThree')}</p>
             </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>{i18n.t('services.uiux.serviceFour')}</p>
+            </li>
           </ul>
         </article>
         {/* END OF UI/UX */}
