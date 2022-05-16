@@ -18,7 +18,7 @@ const messages = {
                 clientsMessage: '30+',
                 projectsTitle: 'Projetos',
                 projectsMessage: '35+ completos',
-                aboutMessage: 'Nasci no ano de 1996, na cidade de Salvador/BA no Brasil. Atualmente possuo bacharelado em Administração de Empresas (desde 2020) e atuo com Desenvolvimento Web. Meu foco é desenvolver sites otimizados, que correspondam às melhores práticas de experiência do usuário e com foco em SEO (boas práticas para as ferramentas de pesquisa como Google).'
+                aboutMessage: 'Sou natural da cidade de Salvador/BA no Brasil. Tenho 26 anos, sou casado, possuo bacharelado em Administração de Empresas (desde 2020) e atuo com Desenvolvimento Web. Meu foco é desenvolver sites otimizados, que correspondam às melhores práticas de experiência do usuário e com foco em SEO (boas práticas para as ferramentas de pesquisa como Google).'
             },
 
             experience: {
