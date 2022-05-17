@@ -18,7 +18,7 @@ const messages = {
                 clientsMessage: '30+ Worldwide',
                 projectsTitle: 'Projects',
                 projectsMessage: '35+ completed',
-                aboutMessage: "I was born in Salvador/BA - Brazil. I've 26 years, married, I've a bachelor's degree in Business Administration (since 2020) and i work with Web Development. My focus is to develop optimized websites that correspond to the best user's experience practices focusing on SEO (best practices for search engines like Google)."
+                aboutMessage: "I was born in Salvador/BA - Brazil. I'm 26 years, married, I've a bachelor's degree in Business Administration (since 2020) and i work with Web Development. My focus is to develop optimized websites that correspond to the best user's experience practices focusing on SEO (best practices for search engines like Google)."
             },
 
             experience: {
