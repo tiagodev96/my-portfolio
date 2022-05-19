@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     image: CONSTRUFORMAS,
-    title: 'Construformas Engenharia',
+    title: `Construformas Engenharia`,
     github: 'https://github.com/tiagodev96/construformas-theme',
     demo: 'https://construformasengenharia.com'
   },
